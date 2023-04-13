@@ -11,7 +11,7 @@ import time
 import sys
 
 #At the time being, .txt seemed to be the best format for results. So, create your .txt file.
-f = open("jdmba.txt","w")
+f = open("output.txt","w")
 
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-extensions')
