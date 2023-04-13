@@ -20,8 +20,8 @@ driver = webdriver.Chrome(executable_path='/Users/rizwankazi/scraping/chromedriv
 driver.get("https://www.linkedin.com/login")
 
 #Log in with your email and password for LinkedIn.
-username = 'rsk2176@columbia.edu'
-password = '122302yeah'
+username = "username"
+password = "password"
 driver.find_element_by_id('username').send_keys(username)
 driver.find_element_by_id('password').send_keys(password)
 driver.find_element_by_css_selector('.btn__primary--large').click()
